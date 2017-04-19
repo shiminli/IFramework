@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
                     @Override
                     public void onError(Throwable e) {
-                        Log.e(TAG, "onError: " + e.getMessage());
+                        JLog.e(TAG, "onError: " + e.getMessage());
                     }
 
                     @Override
@@ -78,12 +78,12 @@ public class MainActivity extends AppCompatActivity {
         viseApi.get("/api/food/list", hashMap, new ApiCallback<TestBean>() {
             @Override
             public void onStart() {
-                Log.e(TAG, "k开始  了了 : ");
+                JLog.e(TAG, "k开始  了了 : ");
             }
 
             @Override
             public void onError(ApiException e) {
-                Log.e(TAG, "onError: " + e.getMessage());
+                JLog.e(TAG, "onError: " + e.getMessage());
             }
 
             @Override
