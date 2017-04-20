@@ -4,7 +4,7 @@ package cn.sm.framework;
 import cn.sm.framework.image.MyLoader;
 
 /**
- * Created by Jixiang_Li on 2017/2/7.
+ * * Created by lishimin 2017/4/19
  */
 
 public class JConfig {

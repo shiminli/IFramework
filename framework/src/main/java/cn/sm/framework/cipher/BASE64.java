@@ -4,8 +4,7 @@ import android.util.Base64;
 
 /**
  * @Description: Base64加密解密
- * @author: jeasinlee
- * @date: 2017-01-12 10:58
+ * Created by lishimin 2017/4/19
  */
 public class BASE64 {
 

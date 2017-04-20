@@ -2,8 +2,7 @@ package cn.sm.framework.net.exception;
 
 /**
  * @Description: API Code，包含Http/Request/Response
- * @author: <a href="http://xiaoyaoyou1212.360doc.com">DAWI</a>
- * @date: 2016-12-30 18:11
+ * Created by lishimin 2017/4/19
  */
 public class ApiCode {
 

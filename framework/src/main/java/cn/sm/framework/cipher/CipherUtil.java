@@ -28,7 +28,7 @@ import java.security.NoSuchAlgorithmException;
 
 
 /**
- * Create  2016/5/7 007
+ * Created by lishimin 2017/4/19
  */
 public class CipherUtil {
 

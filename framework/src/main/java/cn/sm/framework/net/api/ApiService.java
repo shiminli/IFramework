@@ -22,8 +22,7 @@ import rx.Observable;
 
 /**
  * @Description: 提供的系列接口
- * @author: lishimin
- * @date: 2016-12-30 16:42
+ ** Created by lishimin 2017/4/19
  */
 public interface ApiService {
 

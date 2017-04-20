@@ -1,4 +1,4 @@
-package cn.sm.framework.net.util;
+package cn.sm.framework.util;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -10,8 +10,7 @@ import java.lang.reflect.Method;
 
 /**
  * assist us in sensing state of the networks.
- * <p>
- * need  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+ * Created by lishimin 2017/4/19
  */
 public class NetworkUtil {
     public enum NetType {

@@ -1,8 +1,11 @@
 package cn.sm.framework.convert;
 
 
-import cn.sm.framework.net.util.JLog;
+import cn.sm.framework.util.JLog;
 
+/**
+ * * Created by lishimin 2017/4/19
+ */
 public class ToHex {
 
     /**

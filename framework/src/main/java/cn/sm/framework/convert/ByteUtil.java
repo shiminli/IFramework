@@ -5,6 +5,9 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
+/**
+ * * Created by lishimin 2017/4/19
+ */
 public class ByteUtil {
     /**
      * byte[] 转为 对象

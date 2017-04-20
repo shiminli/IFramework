@@ -17,9 +17,7 @@ import java.util.Map;
 import javax.crypto.Cipher;
 
 /**
- * @Description:
- * @author: jeasinlee
- * @date: 2017-01-12 11:22
+ * Created by lishimin 2017/4/19
  */
 public class RSA {
     public static final String SIGNATURE_ALGORITHM = "MD5withRSA";

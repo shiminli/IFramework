@@ -1,4 +1,4 @@
-package cn.sm.framework.net.util;
+package cn.sm.framework.util;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.GenericArrayType;
@@ -10,6 +10,7 @@ import java.util.Date;
 
 /**
  * 类工具
+ * Created by lishimin 2017/4/19
  */
 public class ClassUtil {
 
@@ -65,10 +66,21 @@ public class ClassUtil {
         return Collection.class.isAssignableFrom(claxx);
     }
 
+    /**
+     * 检测一个类是否是数组
+     * @param claxx
+     * @return
+     */
     public static boolean isArray(Class claxx) {
         return claxx.isArray();
     }
 
+    /**
+     * 通过泛型获取类
+     * @param t
+     * @param <T>
+     * @return
+     */
     public static <T> Class getTClass(T t) {
         Type genType = t.getClass().getGenericSuperclass();
         Type[] params = ((ParameterizedType) genType).getActualTypeArguments();
@@ -81,6 +93,7 @@ public class ClassUtil {
             finalNeedType = type;
         }
         final Class clazz = getClass(finalNeedType, 0);
+
         return clazz;
     }
 

@@ -11,8 +11,7 @@ import javax.crypto.spec.DESKeySpec;
 
 /**
  * @Description: DES加密解密
- * @author: jeasinlee
- * @date: 2017-01-12 11:20
+ * Created by lishimin 2017/4/19
  */
 public class DES {
 

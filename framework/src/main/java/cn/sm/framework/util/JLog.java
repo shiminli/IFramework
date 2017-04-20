@@ -14,7 +14,7 @@
  *   limitations under the License.
  */
 
-package cn.sm.framework.net.util;
+package cn.sm.framework.util;
 
 import android.text.TextUtils;
 import android.util.Log;
@@ -34,8 +34,8 @@ import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
 /**
- * Created by Gh0st on 2016/6/7 007.
- * https://github.com/ZhaoKaiQiang/KLog
+ * Created by lishimin 2017/4/19
+ *
  */
 public class JLog {
     private static String TAG = "ghost";

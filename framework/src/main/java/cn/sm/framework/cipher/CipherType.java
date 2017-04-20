@@ -2,8 +2,7 @@ package cn.sm.framework.cipher;
 
 /**
  * @Description: 密码类型
- * @author: <a href="http://xiaoyaoyou1212.360doc.com">DAWI</a>
- * @date: 2017-01-12 11:06
+ * Created by lishimin 2017/4/19
  */
 public enum CipherType {
     SHA("SHA"),

@@ -1,4 +1,4 @@
-package cn.sm.framework.net.util;
+package cn.sm.framework.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -10,9 +10,8 @@ import cn.sm.framework.convert.ToHex;
 
 
 /**
+ * Created by lishimin 2017/4/19
  * @Description: SharedPreferences存储，支持对象加密存储
- * @author: jeasinlee
- * @date: 2016-12-19 15:12
  */
 public class SpCacheUtil {
     private SharedPreferences sp;

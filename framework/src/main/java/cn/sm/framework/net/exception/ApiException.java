@@ -13,8 +13,7 @@ import retrofit2.adapter.rxjava.HttpException;
 
 /**
  * @Description: API异常统一管理
- * @author: jeasinlee
- * @date: 2016-12-30 17:59
+ * Created by lishimin 2017/4/19
  */
 public class ApiException extends Exception {
 

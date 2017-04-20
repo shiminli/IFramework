@@ -13,7 +13,7 @@ import cn.sm.framework.net.callback.ApiCallbackSubscriber;
 import cn.sm.framework.net.interceptor.MyInterceptor;
 import cn.sm.framework.net.parsing.ApiErrFunc;
 import cn.sm.framework.net.parsing.ApiParsingFunc;
-import cn.sm.framework.net.util.ClassUtil;
+import cn.sm.framework.util.ClassUtil;
 import okhttp3.Cache;
 import okhttp3.Interceptor;
 import okhttp3.MultipartBody;
@@ -31,8 +31,7 @@ import rx.schedulers.Schedulers;
 
 /**
  * @Description: 网络操作入口
- * @author: jeasinlee
- * @date: 2017-01-04 19:38
+ * Created by lishimin 2017/4/19
  */
 public class ViseApi {
     private static Context context;
